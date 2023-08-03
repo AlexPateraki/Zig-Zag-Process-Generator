@@ -2,7 +2,7 @@
 - Your program will start with a parent process at level 0 and will spawn (`fork`) 2 other child processes. The left child and the right child.
 - These children will be at level 1. Only one of these two children will perform a fork. If the current level number is odd (1, 3, 5, 7, 9), only the left child will fork. Otherwise, only the right child will fork.
 
-![Screenshot](zig_zag photo.png)
+![image](https://github.com/AlexPateraki/Zig-Zag-Process-Generator/assets/25749228/3f491faa-eedf-492a-b8d3-6f468c5377d9)
 
 Specifications:
 * The number of levels (zigzag steps) will be passed as a parameter from the command line during the execution of `zigzag.py`.
